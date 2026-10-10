@@ -1,0 +1,7 @@
+interface:
+  display_name: "MiniMax H3 Director"
+  short_description: "把故事写成 H3 短剧分镜，并按需生成完整视频"
+  icon_small: "./assets/minimax-h3-director-mark.svg"
+  icon_large: "./assets/minimax-h3-director-banner-v2.svg"
+  brand_color: "#E86E5A"
+  default_prompt: "用 $minimax-h3-director 把这段想法写成短剧剧情和分镜；需要出片时再调用已授权的视频 MCP。"

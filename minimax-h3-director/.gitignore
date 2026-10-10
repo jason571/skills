@@ -1,0 +1,6 @@
+# Generated and local-only files
+tmp/
+output/
+*.log
+.DS_Store
+Thumbs.db

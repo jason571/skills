@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-labelledby="title desc">
+  <title id="title">MiniMax H3 Director original combined mark</title>
+  <desc id="desc">An original lens, prompt bracket, and clapperboard mark. It is not an official MiniMax logo.</desc>
+  <rect width="720" height="240" rx="20" fill="#121515"/>
+  <g transform="translate(52 62)">
+    <circle cx="58" cy="58" r="54" fill="none" stroke="#F2EFE8" stroke-width="10"/>
+    <circle cx="58" cy="58" r="30" fill="#E86E5A"/>
+    <circle cx="58" cy="58" r="12" fill="#121515"/>
+    <path d="M10 11L28 32M106 11L88 32M10 105L28 84M106 105L88 84" fill="none" stroke="#B5D65A" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <text x="190" y="140" fill="#B5D65A" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="700">&lt; / &gt;</text>
+  <g transform="translate(438 54)" fill="none" stroke-linejoin="round">
+    <path d="M6 43H166V153H6Z" fill="#F2EFE8" stroke="#F2EFE8" stroke-width="8"/>
+    <path d="M0 4H151L171 43H20Z" fill="#E86E5A" stroke="#E86E5A" stroke-width="8"/>
+    <path d="M22 4L50 43M68 4L96 43M114 4L142 43" stroke="#121515" stroke-width="10"/>
+    <path d="M31 84H141M31 116H99" stroke="#121515" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <text x="360" y="212" fill="#F2EFE8" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="3">ORIGINAL COMBINED MARK</text>
+</svg>

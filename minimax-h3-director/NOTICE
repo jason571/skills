@@ -1,0 +1,18 @@
+MiniMax H3 Director
+Copyright 2026 instann
+
+This repository contains original documentation and graphics authored for
+MiniMax H3 Director and distributed under the Apache License, Version 2.0.
+
+The repository does not include MiniMax H3 model materials or copies of
+MiniMax official documentation. MiniMax H3 official materials are governed by
+the MiniMax H3 Community License Agreement, available at:
+https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE
+
+The graphical mark at assets/brand/minimax.png was supplied by the repository
+owner for compatibility identification. It is not licensed under Apache-2.0;
+all rights in that mark remain with its respective owner.
+
+"MiniMax" and "MiniMax H3" are used only to describe compatibility. They are
+marks of their respective owner and no affiliation, endorsement, or partnership
+is implied.

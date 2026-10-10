@@ -1,0 +1,4 @@
+interface:
+  display_name: "CLHH 空间娱乐"
+  short_description: "CLHH 场控、内容生成、互动与运营方案知识"
+  default_prompt: "Use $clhh-space-entertainment to design a CLHH venue experience for this scenario."

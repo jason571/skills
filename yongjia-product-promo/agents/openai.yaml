@@ -1,0 +1,7 @@
+interface:
+  display_name: "永嘉产品宣传片"
+  short_description: "默认两分钟、最长三分钟的永嘉宣传片，对象随用户指定，H3 分段连续生成并配中文解说"
+  default_prompt: "使用 $yongjia-product-promo 制作默认两分钟永嘉宣传片。先以实时默认段长一次提交完整 plan，再用 model-synthesize_speech 为各段配音，最后调用 media-workflow-render_narrated_video 交付完整 MP4；不要直接调用单段视频生成工具。"
+
+policy:
+  allow_implicit_invocation: true

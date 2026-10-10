@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "stages": [
+    {
+      "id": "prepare",
+      "tools": [
+        "skill-yongjia-product-promo-read",
+        "minimax-h3-mcp-list_video_models",
+        "media-workflow-prepare_narrated_video"
+      ],
+      "advance_on_success": "media-workflow-prepare_narrated_video"
+    },
+    {
+      "id": "narrate_and_render",
+      "tools": [
+        "skill-yongjia-product-promo-read",
+        "media-workflow-prepare_narrated_video",
+        "model-synthesize_speech",
+        "media-workflow-render_narrated_video"
+      ]
+    }
+  ]
+}

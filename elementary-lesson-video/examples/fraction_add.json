@@ -1,0 +1,82 @@
+{
+  "title": "1/2 + 1/3 等于多少？",
+  "question": "1/2 加 1/3 等于多少？",
+  "subject": "数学",
+  "grade": "小学四年级",
+  "language": "zh-CN",
+  "segments": [
+    {
+      "id": "s01",
+      "role": "hook",
+      "narration": "小朋友，如果一块蛋糕你先吃掉一半，再吃掉三分之一，一共吃了多少呢？今天我们就来算一算。",
+      "visual": {
+        "type": "title",
+        "title": "1/2 + 1/3",
+        "subtitle": "1/2 加 1/3 等于多少？"
+      }
+    },
+    {
+      "id": "s02",
+      "role": "concept",
+      "narration": "分数下面的数叫分母，表示平均分成几份。上面的数叫分子，表示取了几份。",
+      "visual": {
+        "type": "talking_text",
+        "heading": "分子和分母"
+      }
+    },
+    {
+      "id": "s03",
+      "role": "demo",
+      "narration": "二分之一和三分之一的分母不一样，不能直接加。我们要先把它们变成同样大小的格子，这就叫通分。",
+      "visual": {
+        "type": "fraction_pies",
+        "heading": "分母不同，不能直接加",
+        "items": [
+          { "n": 1, "d": 2, "label": "1/2" },
+          { "n": 1, "d": 3, "label": "1/3" }
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "role": "demo",
+      "narration": "把同样大的蛋糕平均分成六份。一半占其中三份，三分之一占其中两份。现在每一小份一样大了，所以可以数一共有几份。",
+      "visual": {
+        "type": "formula",
+        "heading": "通分成六份",
+        "lines": ["同一块蛋糕分成6份，每份一样大", "1/2 = 3/6", "1/3 = 2/6"]
+      }
+    },
+    {
+      "id": "s05",
+      "role": "example",
+      "narration": "分母相同了，只要把分子加起来：三加二等于五。所以答案是六分之五。",
+      "visual": {
+        "type": "formula",
+        "heading": "分子相加",
+        "lines": ["每份都是整块蛋糕的1/6", "3份加2份，一共5份", "3/6 + 2/6 = 5/6"]
+      }
+    },
+    {
+      "id": "s06",
+      "role": "practice",
+      "narration": "你来试一试：二分之一加四分之一等于多少？先通分成四分，再把分子相加。",
+      "visual": {
+        "type": "quiz",
+        "question": "1/2 + 1/4 = ?",
+        "answer": "3/4",
+        "reveal_at": 0.6
+      }
+    },
+    {
+      "id": "s07",
+      "role": "summary",
+      "narration": "记住口诀：分母不同先通分，分母相同加分子。二分之一加三分之一，等于六分之五。",
+      "visual": {
+        "type": "steps",
+        "heading": "记住三步",
+        "items": ["分母不同先通分", "分母相同加分子", "1/2 + 1/3 = 5/6"]
+      }
+    }
+  ]
+}

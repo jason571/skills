@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600" role="img" aria-labelledby="title desc">
+  <title id="title">MiniMax H3 Director</title>
+  <desc id="desc">Independent prompt direction skill organized around an ask, route, and direct workflow.</desc>
+  <rect width="1600" height="600" fill="#121515"/>
+  <path d="M0 520H1600" stroke="#303939" stroke-width="2"/>
+  <path d="M80 122H446" stroke="#E86E5A" stroke-width="14"/>
+  <text x="80" y="96" fill="#B5D65A" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="5">INDEPENDENT PROMPT DIRECTION SKILL</text>
+  <text x="80" y="240" fill="#F2EFE8" font-family="Arial, Helvetica, sans-serif" font-size="98" font-weight="700">MiniMax H3 Director</text>
+  <text x="84" y="298" fill="#BAC5C3" font-family="Arial, Helvetica, sans-serif" font-size="31">Turn a story into a verified route before writing a structured prompt.</text>
+  <text x="84" y="408" fill="#F2EFE8" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" letter-spacing="2">CLARIFY ASSETS</text>
+  <path d="M84 438H348" stroke="#E86E5A" stroke-width="6"/>
+  <text x="390" y="408" fill="#F2EFE8" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" letter-spacing="2">SELECT ROUTE</text>
+  <path d="M390 438H634" stroke="#B5D65A" stroke-width="6"/>
+  <text x="676" y="408" fill="#F2EFE8" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" letter-spacing="2">WRITE STRUCTURE</text>
+  <path d="M676 438H958" stroke="#F2EFE8" stroke-width="6"/>
+  <rect x="1124" y="86" width="360" height="340" rx="18" fill="#1E2625" stroke="#485654" stroke-width="2"/>
+  <text x="1164" y="146" fill="#B5D65A" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" letter-spacing="3">DIRECTOR LOOP</text>
+  <text x="1164" y="208" fill="#F2EFE8" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">ASK</text>
+  <path d="M1262 198H1418" stroke="#E86E5A" stroke-width="6"/>
+  <text x="1164" y="274" fill="#F2EFE8" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">ROUTE</text>
+  <path d="M1308 264H1418" stroke="#B5D65A" stroke-width="6"/>
+  <text x="1164" y="340" fill="#F2EFE8" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">DIRECT</text>
+  <path d="M1324 330H1418" stroke="#F2EFE8" stroke-width="6"/>
+  <text x="80" y="560" fill="#6F7C79" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="2">INDEPENDENT SKILL · NOT AN OFFICIAL PRODUCT</text>
+</svg>

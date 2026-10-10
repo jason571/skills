@@ -1,0 +1,75 @@
+{
+  "target_duration_seconds": 120.0,
+  "max_clip_seconds": 30.0,
+  "fps": 24,
+  "voiceover": true,
+  "continuity": true,
+  "aspect_ratio": "16:9",
+  "resolution": "512p",
+  "style_guide": "统一视觉约束（全片复用，不逐段更改）：浙南永嘉楠溪江流域农产品主题宣传片；清晨至正午的自然光，柔和的江雾与侧逆光；色调以青绿（江水、稻田、山林）、暖黄（阳光、稻穗、麦芽糖）与陶土棕（竹编、陶罐、土灶）为主，低饱和胶片质感，浅景深微距细节；主体身份为永嘉产地农产品与农人双手，无人物面部特写；镜头语言为缓慢推进、微距横移、无人机低空掠过与静置特写交替；画面一律静音，无字幕、无文字、无Logo（文字由后期叠加）。",
+  "product_facts": "永嘉农产品以真实产地与工艺为准：楠溪江流域的早采茶（乌牛早）、永嘉香柚、早香柚、田鱼（稻田养鱼）、杨梅、番薯枣、粉干、麦芽糖、竹笋、山茶油、铁皮石斛、高山蔬菜、楠溪江溪鱼干、永嘉乌牛早茶等；工艺涉及手工炒茶、竹编、晒笋、土灶熬糖。不虚构企业、认证、销量或联系方式。",
+  "segments": [
+    {
+      "id": "segment-001",
+      "start_seconds": 0.0,
+      "duration_seconds": 30.0,
+      "input_mode": "t2va",
+      "opening_state": "黎明前的楠溪江面，薄雾贴水，远处青灰色山影，画面中央一叶窄竹筏静浮，筏头挂着一盏未点燃的旧马灯。",
+      "ending_state": "同一竹筏已靠近石埠，马灯点亮，晨光把江雾染成暖金色，远山轮廓清晰，画面稳定停留。",
+      "narration": "清晨五点，楠溪江的水面还盖着一层薄雾。永嘉的农产品，就从这一江清水开始。江水养着两岸的稻田，稻田里养着田鱼，鱼游过的地方，稻穗长得更沉。农人不用化肥催它，只等节气自己开口。",
+      "prompt": "integrated_multimodal_description: [Shot 1] Aerial low-altitude view gliding slowly forward over a misty river valley at dawn, grey-green mountain silhouettes layered in haze, a single narrow bamboo raft floating motionless at frame center with an unlit old kerosene lantern tied to its bow, soft blue pre-dawn light, gentle handheld drift. [Shot 2] At 00:07.000, the camera settles at water level beside the raft; an older farmer's weathered hands pole the bamboo slowly, ripples spreading outward in concentric rings, mist curling around the pole, warm rim light beginning to touch the water surface. [Shot 3] At 00:15.000, a macro shot tilts down into the shallow water: small golden carp-like field fish swim between young green rice seedlings, silt particles drifting, sunlight shafts piercing the water at a shallow angle, very slow lateral camera move. [Shot 4] At 00:23.000, the raft reaches a mossy stone landing step; a hand lights the lantern, its warm glow blooming into the now golden morning mist, distant ridgelines sharpening, camera holds a steady wide composition and settles. Silent visuals throughout.
+
+overall_soundscape: N/A
+
+non_diegetic_music: N/A"
+    },
+    {
+      "id": "segment-002",
+      "start_seconds": 30.0,
+      "duration_seconds": 30.0,
+      "input_mode": "i2va",
+      "opening_state": "承接上一段：竹筏停在石埠，马灯暖光仍在画面右侧，晨雾未散，江水呈暖金色。",
+      "ending_state": "画面转入山坡茶园，竹匾上的鲜叶在正午阳光下摊开，茶农双手静止于匾边，光线明亮稳定。",
+      "narration": "顺着江水往山上去，是永嘉的早茶园。天刚亮就采的嫩芽，要在半天之内下锅。铁锅烧到烫手，一双手翻、抖、压、揉，一锅茶要炒上四十多分钟。等它凉下来，香气才慢慢出来——这是机器赶不出来的味道。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.
+
+integrated_multimodal_description: [Shot 1] Continuing from the referenced frame, the lantern-lit bamboo raft rests at the mossy stone landing in golden morning mist, camera slowly pushes past the lantern and tilts upward along the misty hillside toward terraced slopes, warm light climbing the ridge. [Shot 2] At 00:08.000, the camera arrives on a hillside tea terrace at sunrise; a farmer's hands pick two leaves and a bud with a quick pinch-and-snap motion, dew droplets falling from the leaf tips, shallow depth of field, gentle handheld follow. [Shot 3] At 00:16.000, a macro shot above a hot iron wok: bare hands toss and press fresh green tea leaves, faint steam rising, leaves darkening and curling, camera slowly circles the wok rim at a low angle. [Shot 4] At 00:24.000, the camera tilts to a round bamboo tray of finished tea leaves spread under midday sun, hands resting at the tray edge, light bright and stable, composition settles into a still wide shot. Silent visuals throughout.
+
+overall_soundscape: N/A
+
+non_diegetic_music: N/A"
+    },
+    {
+      "id": "segment-003",
+      "start_seconds": 60.0,
+      "duration_seconds": 30.0,
+      "input_mode": "i2va",
+      "opening_state": "承接上一段：正午阳光下竹匾里的茶叶，茶农双手停在匾边，光线明亮。",
+      "ending_state": "画面转入农家院落的长木桌，桌上一字排开香柚、杨梅、番薯枣、麦芽糖与竹编器皿，午后侧光，构图稳定。",
+      "narration": "永嘉的山货，是跟着季节走的。初夏摘杨梅，秋天收香柚，番薯蒸熟晒成枣，麦芽糖在土灶上熬到拉丝。竹篮、竹匾、竹筐，都是村里老人一根一根编出来的。山茶油、笋干、溪鱼干，晒足太阳才收进仓。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.
+
+integrated_multimodal_description: [Shot 1] Continuing from the referenced frame, the camera lifts away from the sunlit bamboo tray of tea leaves and drifts through a farmhouse doorway into a shaded courtyard, light shifting from bright noon to soft interior shadow. [Shot 2] At 00:07.000, a macro shot of a bamboo basket holding deep-red bayberry and pale-yellow pomelo fruit, a hand turning one pomelo to show its textured rind, warm side light, very slow lateral camera move. [Shot 3] At 00:15.000, a clay stove in a farm kitchen: amber malt syrup stretches into thin glossy threads between two hands, steam rising, embers glowing orange, camera slowly pushes in at low angle. [Shot 4] At 00:23.000, the camera pulls back to reveal a long wooden table in the courtyard lined with pomelo, bayberry, dried sweet-potato slices, malt sugar and woven bamboo baskets, afternoon side light raking across the surface, composition holds and settles. Silent visuals throughout.
+
+overall_soundscape: N/A
+
+non_diegetic_music: N/A"
+    },
+    {
+      "id": "segment-004",
+      "start_seconds": 90.0,
+      "duration_seconds": 30.0,
+      "input_mode": "i2va",
+      "opening_state": "承接上一段：农家院落长木桌上的山货与竹编器皿，午后侧光。",
+      "ending_state": "画面回到傍晚的楠溪江畔，竹筏与远山在暖色天光中稳定停留，为片尾定帧留出干净空间。",
+      "narration": "从楠溪江的水，到山上的茶园，再到这一桌山货——永嘉的农产品，不赶时间，只按节气生长。今天下单，明天从永嘉出发。好山好水养出来的东西，值得你尝一口。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.
+
+integrated_multimodal_description: [Shot 1] Continuing from the referenced frame, the camera glides slowly along the long wooden table, passing over pomelo, dried sweet-potato slices and woven bamboo baskets, afternoon light softening as it moves. [Shot 2] At 00:07.000, a macro shot of a hand lifting a woven bamboo basket of dried bamboo shoots and dried river fish into a wooden crate, fine dust motes floating in the light shaft, shallow depth of field. [Shot 3] At 00:15.000, the camera rises into a low aerial pass over terraced fields and a river bend at golden hour, long shadows across the water, distant village rooftops, smooth forward glide. [Shot 4] At 00:23.000, the camera descends back to the riverside at dusk where the bamboo raft floats with its lantern lit, warm sky gradient above the ridgelines, a slow steady push-in that settles into a clean, stable final frame with open sky space for a later end card. Silent visuals throughout.
+
+overall_soundscape: N/A
+
+non_diegetic_music: N/A"
+    }
+  ]
+}

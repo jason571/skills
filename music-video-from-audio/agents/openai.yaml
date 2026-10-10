@@ -1,0 +1,7 @@
+interface:
+  display_name: "音乐生成 MV"
+  short_description: "根据完整歌曲时间轴生成连续无声视频并合成最终音乐视频"
+  default_prompt: "Use $music-video-from-audio to turn my uploaded MP3 into a continuous music video."
+
+policy:
+  allow_implicit_invocation: true

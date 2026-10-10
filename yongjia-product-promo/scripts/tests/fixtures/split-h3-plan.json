@@ -1,0 +1,60 @@
+{
+  "target_duration_seconds": 120.0,
+  "max_clip_seconds": 30.0,
+  "fps": 24,
+  "voiceover": true,
+  "continuity": true,
+  "aspect_ratio": "16:9",
+  "resolution": "512p",
+  "style_lock": "统一视觉约束：清晨至正午的楠溪江自然侧逆光，青绿山水与暖金色稻浪并存；微距水珠与食材纤维的实拍质感；浅景深、稳定器缓推与低空航拍交替；人物为真实劳作的双手与背影，不出现虚构商标、包装品牌或可读功效文字。全片色彩：青绿 + 暖金 + 米白。",
+  "segments": [
+    {
+      "id": "segment-001",
+      "start_seconds": 0.0,
+      "duration_seconds": 30.0,
+      "input_mode": "t2va",
+      "narration": "清晨五点，楠溪江的水汽还没散。永嘉的山谷里，第一茬早茶刚刚醒来。这里的茶树长在云雾和卵石之间，一年只等这一季的鲜。手指轻轻一掐，一芽一叶，落进竹篮里。好茶不赶时间，它只赶春天。",
+      "prompt": "integrated_multimodal_description: [Shot 1] Low aerial drone shot at dawn drifting slowly over the Nanxi River valley in Yongjia, mist lying in layers between dark green ridges, a narrow river curving like polished jade, warm golden light breaking over the far mountain crest, camera glides forward and slightly down, cinematic wide framing. [Shot 2] At 00:07.000, cut to a macro ground-level shot: dew beads on young tea leaves on a terraced hillside slope, shallow depth of field, slow lateral dolly right, soft backlight rimming each droplet. [Shot 3] At 00:15.000, a pair of weathered hands, close-up, picks one bud and one leaf from a tea bush and places it into a woven bamboo basket, camera holds steady, morning haze behind, natural skin texture, no logos. [Shot 4] At 00:23.000, the camera rises from the hands to reveal rows of tea terraces receding into mist with the river glinting far below, slow upward tilt, sun flare entering frame, the image settles into a calm wide landscape ending state. Silent visuals throughout.",
+      "overall_soundscape": "N/A",
+      "non_diegetic_music": "N/A",
+      "first_frame_state": "无参考首帧，文生视频起始于楠溪江晨雾航拍全景",
+      "last_frame_state": "茶园梯田与远处江水在晨光中的稳定全景，为下一段延续同一山谷光线"
+    },
+    {
+      "id": "segment-002",
+      "start_seconds": 30.0,
+      "duration_seconds": 30.0,
+      "input_mode": "i2va",
+      "narration": "从山坡往下走，是永嘉的田。楠溪江的水养着两岸的稻米和蔬菜，也养着一种老习惯：什么季节，吃什么。田鱼在稻田里游，稻花落进水里，鱼就肥了。这样的米，煮出来是甜的。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Continuing from the referenced frame, the same terraced tea hillside and distant river under mid-morning light, camera begins a slow descent and forward drift down the slope, mist thinning, warm sun now higher. [Shot 2] At 00:07.000, cut to a low tracking shot along a rice paddy at the foot of the valley, rice plants heavy with grain, water surface reflecting sky, camera moves forward at plant height, gentle breeze rippling the field. [Shot 3] At 00:15.000, underwater macro shot: small dark paddy fish swimming between rice stems, dappled light through the water, camera slowly pushes in, clear water and mud texture. [Shot 4] At 00:23.000, cut to a warm close-up of freshly harvested rice grains pouring from a cupped hand into a wooden measure, slow motion, soft side light, background blurred to golden field, the image settles into a still, quiet ending state. Silent visuals throughout.",
+      "overall_soundscape": "N/A",
+      "non_diegetic_music": "N/A",
+      "first_frame_state": "继承上一段末帧：茶园梯田与江水全景",
+      "last_frame_state": "木斗中盛满新米的暖色特写，作为下一段手工制作的过渡"
+    },
+    {
+      "id": "segment-003",
+      "start_seconds": 60.0,
+      "duration_seconds": 30.0,
+      "input_mode": "i2va",
+      "narration": "米要变成粉干，得靠太阳和风。永嘉人把米浆蒸成薄皮，摊在竹匾上，一排排晒在院子里。晒足了的粉干，煮起来不糊，咬起来有劲。旁边那口锅里，是刚采的春笋和山里晒的菜干，一锅汤，就是一顿饭。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Continuing from the referenced frame, the same wooden measure of rice held in a hand, camera slowly pulls back to reveal a farmhouse courtyard with bamboo trays, the rice grains still in frame as the visual anchor, warm noon light. [Shot 2] At 00:07.000, cut to a medium shot of thin rice sheets being lifted and laid onto round bamboo drying trays, steam rising, hands working rhythmically, camera slow lateral move, soft window light from the left. [Shot 3] At 00:15.000, wide shot of a courtyard filled with rows of bamboo trays of drying rice noodles under bright sun, shadows of eaves crossing the ground, camera rises slowly on a small crane, blue sky and green hills beyond the wall. [Shot 4] At 00:23.000, cut to a close-up of a clay pot on a wood stove, fresh spring bamboo shoots and dried mountain greens simmering in clear broth, gentle steam curling, camera holds steady and low, warm firelight, the image settles into a calm, appetizing ending state. Silent visuals throughout.",
+      "overall_soundscape": "N/A",
+      "non_diegetic_music": "N/A",
+      "first_frame_state": "继承上一段末帧：手中木斗与新米特写",
+      "last_frame_state": "土灶砂锅清汤微沸的暖色特写，为下一段端上餐桌做衔接"
+    },
+    {
+      "id": "segment-004",
+      "start_seconds": 90.0,
+      "duration_seconds": 30.0,
+      "input_mode": "i2va",
+      "narration": "这一桌东西，从山上到桌上，没有走过太远的路。楠溪江的好，不在远处，就在这一口饭里。来永嘉，尝一尝山水的味道。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Continuing from the referenced frame, the same clay pot still simmering on the wood stove, camera slowly tilts up and pulls back as a hand lifts the pot lid, steam blooming into frame, warm interior light. [Shot 2] At 00:07.000, cut to a tabletop overhead shot: a simple wooden table set with a bowl of rice, a plate of rice noodles, a dish of bamboo shoots, a cup of green tea, hands placing each dish, camera slowly rotating a few degrees clockwise, natural daylight from a courtyard door. [Shot 3] At 00:15.000, medium shot of a family and a visitor seated around the table lifting chopsticks, faces relaxed and smiling, no readable text or branding anywhere, camera gentle push in, late afternoon light through the doorway. [Shot 4] At 00:23.000, cut to a final wide shot from outside the courtyard: the Nanxi River and layered green mountains under a golden late-afternoon sky, the farmhouse roof in the near foreground, camera slowly rising and settling into a still, luminous ending state. Silent visuals throughout.",
+      "overall_soundscape": "N/A",
+      "non_diegetic_music": "N/A",
+      "first_frame_state": "继承上一段末帧：土灶砂锅清汤特写",
+      "last_frame_state": "院外楠溪江与群山金色黄昏全景，收束全片"
+    }
+  ]
+}
