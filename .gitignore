@@ -36,3 +36,7 @@ logs/
 /pptx/
 /pdf/
 /xlsx/
+
+# Packages retained locally, excluded from GitHub publication
+/elementary-lesson-video/
+/clhh-space-entertainment/

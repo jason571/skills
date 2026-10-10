@@ -14,14 +14,12 @@ Use this collection with [ExoHarness](https://github.com/jason571/Exoharness) or
 | Video direction and music videos | [minimax-h3-director](minimax-h3-director/), [music-video-from-audio](music-video-from-audio/) | Narrative direction, H3 prompts/storyboards, reference-image roles and multi-clip MV planning |
 | Regional promotion | [yongjia-product-promo](yongjia-product-promo/) | Narrated promotional videos for products, culture and tourism |
 | Music production | [yue2-song-production](yue2-song-production/) | Sung songs through an authorized YuE2 service; optional cover art |
-| Teaching | [elementary-lesson-video](elementary-lesson-video/) | Age-appropriate lesson plans and synchronized narrated animations |
-| Space entertainment | [clhh-space-entertainment](clhh-space-entertainment/) | Domain context for entertainment venues and spatial workflows |
 | Extension authoring | [skill-creator](skill-creator/), [mcp-builder](mcp-builder/), [find-skills](find-skills/) | Authoring Skills, building MCP services and finding existing packages |
 | Search and extraction | [tavily-search](tavily-search/), [tavily-dynamic-search](tavily-dynamic-search/), [tavily-extract](tavily-extract/) | Query planning, focused web searches and content extraction |
 | Site exploration and research | [tavily-crawl](tavily-crawl/), [tavily-map](tavily-map/), [tavily-research](tavily-research/) | Crawl/map operations and research workflows |
 | Tavily integration | [tavily-best-practices](tavily-best-practices/), [tavily-cli](tavily-cli/) | Integration guidance and CLI usage |
 
-There are 21 packages in this initial publication. A Skill listing is not a promise that its dependent service is deployed on your machine.
+There are 19 packages in this publication. A Skill listing is not a promise that its dependent service is deployed on your machine.
 
 ## Install and import
 
@@ -55,7 +53,6 @@ Directory names vary by package. Preserve package-relative paths; importing only
 ## Execution dependencies
 
 - Website/code tasks use the host's workspace and isolated coding tools. This collection does not require the legacy `skill-workspace` MCP when the host already provides equivalent native tools.
-- Teaching animation requires a lesson renderer and configured TTS capability; registering the teaching Skill alone does not synthesize speech or render Manim.
 - Song, image and video tasks require corresponding authorized model services. Multi-clip workflows also require media assembly; service parameters come from live tool schemas.
 - Tavily packages require a matching Tavily integration and its API credential. CLI examples require the CLI and runtime as well. Search/research tools have different latency and billing characteristics.
 - Python/Node dependencies used by scripts belong in approved isolated environments, not the user's host shell. Keep generated files in the task workspace and publish the final artifacts through the host.

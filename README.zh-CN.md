@@ -14,14 +14,12 @@
 | 视频导演与 MV | [minimax-h3-director](minimax-h3-director/)、[music-video-from-audio](music-video-from-audio/) | 剧情、H3 提示词与分镜、参考图角色和多段 MV 规划 |
 | 地域宣传 | [yongjia-product-promo](yongjia-product-promo/) | 产品、文化与旅游宣传视频及解说 |
 | 音乐创作 | [yue2-song-production](yue2-song-production/) | 调用已授权的 YuE2 服务创作演唱歌曲，可选封面 |
-| 教学动画 | [elementary-lesson-video](elementary-lesson-video/) | 适龄讲解、课程计划和音画同步动画 |
-| 空间娱乐 | [clhh-space-entertainment](clhh-space-entertainment/) | 娱乐场馆与空间工作流领域资料 |
 | 扩展开发 | [skill-creator](skill-creator/)、[mcp-builder](mcp-builder/)、[find-skills](find-skills/) | 创建 Skill、开发 MCP 服务、查找现有技能 |
 | 搜索与提取 | [tavily-search](tavily-search/)、[tavily-dynamic-search](tavily-dynamic-search/)、[tavily-extract](tavily-extract/) | 搜索规划、聚焦查询与网页内容提取 |
 | 网站探索与研究 | [tavily-crawl](tavily-crawl/)、[tavily-map](tavily-map/)、[tavily-research](tavily-research/) | 网站爬取、链接映射和研究流程 |
 | Tavily 集成 | [tavily-best-practices](tavily-best-practices/)、[tavily-cli](tavily-cli/) | 接入说明与 CLI 使用 |
 
-本次公开版本包含 21 个技能包。目录中存在 Skill，不代表其依赖的模型服务已在本机安装。
+本次公开版本包含 19 个技能包。目录中存在 Skill，不代表其依赖的模型服务已在本机安装。
 
 ## 安装与导入
 
@@ -55,7 +53,6 @@ package-name/
 ## 执行依赖
 
 - 网页与代码任务使用宿主工作区和隔离代码工具。宿主已有原生工具时，不要求安装旧的 `skill-workspace` MCP。
-- 教学动画需要课件渲染服务和 TTS 能力；单独登记技能不会生成语音或执行 Manim。
 - 音乐、图片和视频任务需要对应的模型服务，多段视频还需要媒体合成服务。执行参数以实时工具 Schema 为准。
 - Tavily 技能需要对应的 Tavily 集成和 API 密钥；CLI 示例还依赖 CLI 及其运行环境。搜索和 Research 的耗时、计费方式不同。
 - 脚本需要的 Python/Node 依赖安装在经过批准的隔离环境内。任务文件保存在工作区，最终产物通过宿主发布，不直接运行用户宿主 Shell。
